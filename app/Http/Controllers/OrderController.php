@@ -17,6 +17,6 @@ class OrderController extends Controller
 
     }
     public function getWebHookData(Request $request){
-        // return 'Hi';
+        return 'Hi';
     }
 }
