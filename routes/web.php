@@ -20,3 +20,5 @@ Route::get('/','OrderController@index')->middleware(['auth.shopify'])->name('hom
 // Route::get('/', function () {
 //     return view('welcome');
 // })->middleware(['auth.shopify'])->name('home');
+// Route::get()
+Route::post('/webhook/create','OrderController@registerWebHook')->middleware('auth.webhook')->name('webHookCreation');

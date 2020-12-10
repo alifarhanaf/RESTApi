@@ -303,12 +303,12 @@ return [
     */
 
     'webhooks' => [
-        /*
+        
             [
                 'topic' => env('SHOPIFY_WEBHOOK_1_TOPIC', 'orders/create'),
-                'address' => env('SHOPIFY_WEBHOOK_1_ADDRESS', 'https://some-app.com/webhook/orders-create')
+                'address' => env('SHOPIFY_WEBHOOK_1_ADDRESS', 'https://phpstack-490736-1641712.cloudwaysapps.com/webhook/orders-create')
             ],
-            */
+            
         
     ],
 
